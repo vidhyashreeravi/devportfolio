@@ -999,3 +999,11 @@ footer {
     }
 
 }
+
+.profile-picture {
+    width: 500px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    border-radius: 50%; /* This will make it round */
+    object-fit: cover; /* This ensures the image covers the area without stretching */
+    margin-bottom: 10px; /* Adds some space below the image */
+  }
